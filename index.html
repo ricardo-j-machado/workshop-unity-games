@@ -24,14 +24,17 @@
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">WorkshopGames</div>
       </div>
+      <div style="margin-left: 50px; line-height: 38px; font-family: arial; font-size: 15px">
+        <div>(Versão executável Windows disponivel <a href="Windows-x86/WorkshopGames.zip" class="btn" target="_blank">aqui</a>)</div>
+      </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGL.data.gz",
-        frameworkUrl: buildUrl + "/WebGL.framework.js.gz",
-        codeUrl: buildUrl + "/WebGL.wasm.gz",
+        dataUrl: buildUrl + "/WebGL.data",
+        frameworkUrl: buildUrl + "/WebGL.framework.js",
+        codeUrl: buildUrl + "/WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "WorkshopGames",
